@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const express = require('express');
 const app = express();
 const PORT = 3000;
-
+const Product = require('./models/products.js');
 
 // Database Configuration
 const DATABASE_URL = 'mongodb+srv://admin:abc1234@cluster0.r1pjk.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
