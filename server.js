@@ -6,7 +6,7 @@ const PORT = 3000;
 const Product = require('./models/products.js');
 
 // Database Configuration
-const DATABASE_URL = 'mongodb+srv://admin:abc1234@cluster0.r1pjk.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
+const DATABASE_URL = 'mongodb+srv://admin:abc15674@cluster0.r1pjk.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
 
 const db = mongoose.connection;
 
